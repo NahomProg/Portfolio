@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nahom Hailu | CS Student & Developer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="container nav-flex">
+    <div class="logo">Nahom Hailu</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main>
+  <section id="home" class="hero">
+    <div class="container hero-content">
+      <h1>Nahom Hailu<br><span class="highlight">3rd Year CS Student</span></h1>
+      <p>Building clean code, creative solutions, and meaningful projects. Passionate about web development, algorithms, and learning by doing.</p>
+      <div class="btn-group">
+        <a href="#projects" class="btn-primary">View Projects</a>
+        <a href="#contact" class="btn-outline">Contact Me</a>
+      </div>
+      <p style="margin-top: 2rem; font-size: 0.8rem; color: #64748b;">Press ` (tilde) to open terminal mode</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="projects-grid">
+        
+        <div class="project-card">
+          <div class="project-icon"> </div>
+          <h3>Terminal Portfolio</h3>
+          <p>Interactive portfolio with a hidden developer terminal. Press ` to open a command-line interface with custom commands.</p>
+          <div class="project-tech">
+            <span class="tech-badge">HTML/CSS</span>
+            <span class="tech-badge">JavaScript</span>
+            <span class="tech-badge">Terminal UI</span>
+          </div>
+          <span class="badge-current">This Page</span>
+          <a href="https://github.com/NahomProg/portfolio" class="project-link">GitHub Repo</a>
+        </div>
+
+        <div class="project-card">
+          <div class="project-icon"> </div>
+          <h3>TaskFlow</h3>
+          <p>Cloud-synced task manager with Google Sign In, drag & drop, dark mode, export/import, and Firebase backend.</p>
+          <div class="project-tech">
+            <span class="tech-badge">JavaScript</span>
+            <span class="tech-badge">Firebase</span>
+            <span class="tech-badge">Cloud Sync</span>
+          </div>
+          <span class="badge-current">Live Demo</span>
+          <a href="https://taskflow-app-47.web.app" class="project-link">Live Demo</a>
+          <a href="https://github.com/NahomProg/taskflow" class="project-link" style="margin-left: 1rem;">GitHub Repo</a>
+        </div>
+
+        <div class="project-card">
+          <div class="project-icon"> </div>
+          <h3>GitHub Stats Visualizer</h3>
+          <p>Enter any GitHub username to see repos, stars, and contribution data using GitHub REST API.</p>
+          <div class="project-tech">
+            <span class="tech-badge">API Integration</span>
+            <span class="tech-badge">Async JS</span>
+            <span class="tech-badge">Fetch API</span>
+          </div>
+          <span class="badge-coming">Planned</span>
+          <a href="https://github.com/NahomProg/github-stats-visualizer" class="project-link">GitHub Repo</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <h2 class="section-title">Tech Stack</h2>
+      <div class="skills-grid">
+        <span class="skill-tag">JavaScript</span>
+        <span class="skill-tag">HTML5/CSS3</span>
+        <span class="skill-tag">React (Learning)</span>
+        <span class="skill-tag">Node.js</span>
+        <span class="skill-tag">Git and GitHub</span>
+        <span class="skill-tag">SQL</span>
+        <span class="skill-tag">REST APIs</span>
+        <span class="skill-tag">Firebase</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Connect With Me</h2>
+      <div class="contact-links">
+        <a href="https://github.com/NahomProg" class="contact-card">GitHub</a>
+        <a href="mailto:nahoma4300@gmail.com" class="contact-card">Email</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <p>2025 Nahom Hailu | Built with HTML/CSS/JS | CS Student Portfolio</p>
+  </div>
+</footer>
+
+<div id="terminalOverlay" class="terminal-overlay">
+  <button class="close-terminal" id="closeTerminal">X</button>
+  <div class="terminal-window">
+    <div class="terminal-header">
+      <div class="terminal-dot"></div>
+      <div class="terminal-dot"></div>
+      <div class="terminal-dot"></div>
+    </div>
+    <div class="terminal-body">
+      <div id="terminalOutput">
+        <div class="terminal-output">Welcome to Nahom's Terminal v1.0</div>
+        <div class="terminal-output">Type 'help' to see available commands.</div>
+        <div class="terminal-output">---</div>
+      </div>
+      <div class="terminal-input-line">
+        <span class="terminal-prompt">$ </span>
+        <input type="text" id="terminalInput" class="terminal-input" autofocus>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

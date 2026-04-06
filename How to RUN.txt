@@ -1,0 +1,32 @@
+
+## How to Run Locally
+
+1. Clone the repository
+2. Open index.html in your browser
+3. Press the ` key to open terminal mode
+
+## Terminal Commands
+
+| Command | Description |
+|---------|-------------|
+| help | Shows all available commands |
+| skills | Displays my tech stack |
+| projects | Lists my current projects |
+| contact | Shows my contact information |
+| about | Displays a short bio |
+| clear | Clears the terminal screen |
+| exit | Closes the terminal |
+| gh user | Shows my GitHub profile |
+| gh repos | Shows my latest GitHub repos |
+| gh lookup username | Shows any GitHub user's profile |
+| gh repos username | Shows any user's latest repos |
+
+## Live Demo
+
+[Add GitHub Pages link here]
+
+## Contact
+
+- GitHub: github.com/nahomhailu
+- LinkedIn: linkedin.com/in/nahom-hailu
+- Email: nahom.hailu@example.edu
